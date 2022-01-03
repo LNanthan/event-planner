@@ -1,0 +1,94 @@
+.button{
+    font-family: 'Open Sans';
+    padding: 2mm;
+    
+    background-color: var(--theme-light-gray);
+    border-radius: 12px;
+    border: solid,black,1px;
+    /* transition: all 0.3s ease-out; */
+}
+.home{
+    font-size: 20px;
+    width:250px;
+    margin: 5mm;
+}
+.create{
+    width:140px;
+}
+
+.buttonCon{
+    height: 400px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.fButtons{
+    width: 334px;
+    margin-top: 20px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+.react-calendar__month-view__days__day--weekend {
+    color: #302b2b;
+}
+.eventFButtons{
+    width: 100%;
+    /* margin-top: 20px; */
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.formContainer{
+    height: 500px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.formStyle{
+    border-style: solid;
+    border-width:2px;
+    border-color: black;
+    background-color: var(--theme-light-gray);
+    border-radius: 12px;
+    width:284px;
+    
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+.formLabel{
+    font-family: 'Open Sans';
+    padding-top:3mm;
+}
+.formSubLabel{
+    font-family: 'Open Sans';
+    font-size: 12px;
+    padding-left: 2mm;
+    padding-right: 2mm;
+}
+.fDates{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+/* .dateInput{} */
+.selectWeek{
+    margin-right: 2mm;
+    margin-left: 2mm;
+}
+.selectedWeek{
+    margin-right: 2mm;
+    margin-left: 2mm;
+    background-color: var(--theme-color);
+    border-style: inset;
+}
+
+
+.button:hover{
+    background-color: var(--theme-color);
+    cursor: pointer;
+    
+}
